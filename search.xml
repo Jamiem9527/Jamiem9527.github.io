@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>邪dk宏</title>
+      <link href="/2025/01/05/dk%E5%AE%8F/"/>
+      <url>/2025/01/05/dk%E5%AE%8F/</url>
+      
+        <content type="html"><![CDATA[<h3 id="邪DK宏"><a href="#邪DK宏" class="headerlink" title="邪DK宏"></a>邪DK宏</h3><p>冰触</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 冰冷触摸</span><br><span class="line">/startattack</span><br><span class="line">/cast 冰冷触摸</span><br><span class="line">/petattack</span><br><span class="line">/cast 符文打击</span><br></pre></td></tr></table></figure><p>暗打</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 暗影打击</span><br><span class="line">/startattack</span><br><span class="line">/cast 暗影打击</span><br><span class="line">/petattack</span><br><span class="line">/cast 符文打击</span><br></pre></td></tr></table></figure><p>天鬼爆发</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 召唤石像鬼</span><br><span class="line">/cast 血性狂怒</span><br><span class="line">/cast 召唤石像鬼</span><br></pre></td></tr></table></figure><p>大军爆发</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 亡者大军</span><br><span class="line">/use 13</span><br><span class="line">/use 14</span><br><span class="line">/use 10</span><br><span class="line">/use 速度药水</span><br><span class="line">/cast 亡者大军</span><br></pre></td></tr></table></figure><p>凋零</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 枯萎凋零</span><br><span class="line">/stratattack</span><br><span class="line">/use [@cursor]!枯萎凋零</span><br><span class="line">/cast 符文打击</span><br></pre></td></tr></table></figure><p>换刀宏</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 心灵冰冻</span><br><span class="line">/cast 心灵冰冻</span><br><span class="line">/cast 凋零缠绕</span><br><span class="line">/use 通用热力工程炸药</span><br><span class="line">/use [@player] 萨隆邪铁炸弹</span><br><span class="line">/equipset 黑魔法</span><br><span class="line">/use 10</span><br><span class="line">/use 13</span><br></pre></td></tr></table></figure><p>打断优先鼠标指向、其次焦点、最后当前目标</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#showtooltip 心灵冰冻</span><br><span class="line">/cast [@mouseover,exists,harm,nodead] 心灵冰冻;[@focus,exists,harm,nodead] 心灵冰冻;心灵冰冻</span><br><span class="line">/startattack</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 邪dk </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 邪dk </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>wlk通用-weakauras配置</title>
       <link href="/2025/01/05/wlk-weakauras/"/>
       <url>/2025/01/05/wlk-weakauras/</url>
@@ -78,5 +103,51 @@
     
     
   
+  
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
+      
+        <content type="html"><![CDATA[/* 恶搞标题 start *///动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👀跑哪里去了~';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐖抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});/* 恶搞标题 end */]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>標籤</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的视频</title>
+      <link href="/video/index.html"/>
+      <url>/video/index.html</url>
+      
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113372154562266&bvid=BV1Lk1sYnEtW&cid=26468028107&p=1"         width="100%" height="500px"         scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script>function selectVideo(id){    var src=$("#video-item-"+id).attr("data-src");    $("#video-select").html("<iframe id='video-iframe' src='"+src+"' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'> </iframe>");    var iframe = document.getElementById("video-select")    if(iframe.attachEvent){      iframe.attachEvent("onreadystatechange", function() {        if (iframe.readyState === "complete" || iframe.readyState == "loaded") {          iframe.detachEvent("onreadystatechange", arguments.callee);        if (document.getElementsByClassName('video-mirror').length>0) {          console.log("1true")          $(".video-mirror").attr("style","transform:scaleX(-1);")          }        }      });    }else{      iframe.addEventListener("load", function() {        this.removeEventListener("load", arguments.call, false);      if (document.getElementsByClassName('video-mirror').length>0) {        console.log("2true")        $(".video-mirror").attr("style","transform:scaleX(-1);")      }      }, false);    }}$(document).ready(selectVideo(0));</script>]]></content>
+      
+    </entry>
+    
+    
   
 </search>
